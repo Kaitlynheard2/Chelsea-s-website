@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* @import "node_modules/@glidejs/glide/src/assets/sass/glide.core"; */
+/* @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme"; */
+
+body, html{
+  font-family: 'Bangers', cursive;
+  box-sizing: border-box;
+  margin:0px;
+}
+
+h1{
+  font-size: 10vmin;
+  color:black;
+  text-align:center;
+  padding-top: 40px;
+}
+
+.headerlink:hover{
+  text-shadow:2px 2px 5px #993a0b;
+}
+
+
+.header{
+  margin-top: -70px;
+  background-image: url('https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571858__340.jpg');
+
+}
+
+h2{
+  font-size: 7vmin;
+  color:black;
+}
+
+img{
+  width:300px;
+  height:300px;
+  padding-left:50px;
+}
+
+.glide__slide{
+  width:400px;
+}
+.center{
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  /* border-style: solid; */
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.navlinks{
+  color:black;
+  font-size:3vmin;
+}
+
+.navlinks:hover{
+  text-shadow:2px 2px 5px #993a0b;
+  font-size:5vmin;
+  transition: all 1s;
+}
+
+.navlink:active{
+  text-shadow:2px 2px 5px ;
+  font-size:3vmin;
+}
